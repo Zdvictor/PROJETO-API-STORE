@@ -12,7 +12,7 @@ O **Projeto API Shirt Store** é uma aplicação completa desenvolvida com **Nod
 - **MySQL**: Sistema de gerenciamento de banco de dados relacional.
 - **API do Mercado Pago**: Para processamento de pagamentos de forma segura e eficiente.
 - **Webhook**: Implementado para receber notificações sobre o status dos pagamentos.
-- **Multer**: Middleware para lidar com upload de arquivos, permitindo que os usuários enviem imagens de camisetas.
+- **Multer**: Middleware para lidar com upload de arquivos, permitindo que os usuários enviem imagens para o perfil e de camisetas.
 - **Nodemailer**: Para envio de e-mails, especificamente utilizado na recuperação de senha.
 - **Middleware de Autenticação**: Implementado para proteger as rotas e garantir que apenas usuários autenticados tenham acesso a funcionalidades sensíveis.
 - **Cookies**: Utilizados para armazenar dados de autenticação e sessão do usuário, garantindo uma experiência segura.

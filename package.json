@@ -1,0 +1,41 @@
+{
+  "name": "api_loja_jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cep-promise": "^4.4.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "date-fns": "^4.1.0",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "locale": "^0.1.0",
+    "mercadopago": "^2.0.15",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemailer": "^6.9.15",
+    "password-validator": "^5.3.0",
+    "supertest": "^7.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  }
+}

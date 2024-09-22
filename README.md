@@ -142,7 +142,6 @@ Esses valores permitem que você controle o status de cada pagamento de maneira 
     ```json
     {
       "msg": "Usuário autenticado com sucesso.",
-      "token": "seu_token_jwt"
     }
     ```
   - **401 Unauthorized**: 

@@ -16,6 +16,7 @@ O **Projeto API Shirt Store** é uma aplicação completa desenvolvida com **Nod
 - **Nodemailer**: Para envio de e-mails, especificamente utilizado na recuperação de senha.
 - **Middleware de Autenticação**: Implementado para proteger as rotas e garantir que apenas usuários autenticados tenham acesso a funcionalidades sensíveis.
 - **Cookies**: Utilizados para armazenar dados de autenticação e sessão do usuário, garantindo uma experiência segura.
+- **Test-Driven Development (TDD) com Jest**: TDD foi adotado para garantir que o código fosse testado desde o início do desenvolvimento. O **Jest** foi utilizado para escrever testes automatizados que validam a integridade e funcionamento de diversas funcionalidades da API, como autenticação, validação de dados, rotas e manipulação de pagamentos.
 
 ### Funcionalidades
 
@@ -26,7 +27,6 @@ O **Projeto API Shirt Store** é uma aplicação completa desenvolvida com **Nod
 - **Notificações por E-mail**: Confirmações de pedidos enviadas automaticamente para os usuários e recuperação de senha.
 - **Gerenciamento de Pedidos**: Os usuários podem visualizar o status dos seus pedidos e receber atualizações em tempo real.
 - **Upload de Imagens**: Permite que os usuários façam upload de imagens para usuários e produtos.
-- **Test-Driven Development (TDD) com Jest**: TDD foi adotado para garantir que o código fosse testado desde o início do desenvolvimento. O **Jest** foi utilizado para escrever testes automatizados que validam a integridade e funcionamento de diversas funcionalidades da API, como autenticação, validação de dados, rotas e manipulação de pagamentos.
 
 - ## Aviso Importante Antes dos Endpoints
 

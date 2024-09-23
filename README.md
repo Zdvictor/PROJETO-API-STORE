@@ -100,7 +100,7 @@ Esses valores permitem que você controle o status de cada pagamento de maneira 
     Se você encontrar algum bug ou tiver dúvidas sobre como integrar ou consumir
     a API no front-end, não hesite em entrar em contato comigo. Estou aqui para ajudar!
     Explore os recursos disponíveis e aproveite a experiência de criar algo incrível com a Shirt Store!
-    GITHUB DOC: https://github.com/Zdvictor
+    GITHUB DOC: https://github.com/Zdvictor/PROJETO-API-STORE
     ```
 
 

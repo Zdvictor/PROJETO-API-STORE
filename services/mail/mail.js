@@ -1,4 +1,5 @@
 const nodemailer = require("nodemailer")
+require('dotenv').config();
 
 module.exports =  function mailer(name,email,recoveryCode) {
 
@@ -8,8 +9,8 @@ module.exports =  function mailer(name,email,recoveryCode) {
             service: "gmail",
             auth: {
 
-                user: "victor.zaidir@gmail.com",
-                pass: "ntbx jvjb zkdu zfcn"
+                user: process.env.EMAIL_MAILER,
+                pass: process.env.PASS_MAILER
 
             }
 
@@ -17,7 +18,7 @@ module.exports =  function mailer(name,email,recoveryCode) {
 
         const mailOptions = {
 
-            from: "Shirt Store <victor.zaidir@gmail.com>",
+            from: "Shirt Store <usuario@gmail.com>",
             to: email,
             subject: "Recuperação de Senha - Shirt Store",
             html: `

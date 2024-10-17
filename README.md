@@ -57,6 +57,11 @@ Para aumentar a segurança dos tokens JWT, é necessário criar uma chave secret
 JWT_SECRET="**********"
 
 
+### Configuração do Nodemailer (usando Gmail)
+EMAIL_MAILER="*******@gmail.com"
+PASS_MAILER="**********"
+
+
 
 ### Token do Mercado Pago
 

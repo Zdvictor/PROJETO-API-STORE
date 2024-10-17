@@ -58,7 +58,11 @@ JWT_SECRET="**********"
 
 
 ### Configuração do Nodemailer (usando Gmail)
+
+Aqui você coloca as informações do seu Gmail para permitir o envio de e-mails.
+
 EMAIL_MAILER="*******@gmail.com"
+
 PASS_MAILER="**********"
 
 
